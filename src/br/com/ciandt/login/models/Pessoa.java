@@ -13,7 +13,7 @@ public class Pessoa {
 		this.nome = nome;
 	}
 
-	String getIdade() {
+	public String getIdade() {
 		return idade;
 	}
 
