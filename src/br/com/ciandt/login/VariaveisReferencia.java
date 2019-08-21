@@ -14,7 +14,7 @@ public class VariaveisReferencia {
 		pedro.setNome("Pedro");
 		pedro.setIdade("26");
 		
-		System.out.println("O nome do João é " + joao.getNome() + "e ele tem " + joao.getIdade());
-		System.out.println("O nome do Pedro é " + pedro.getNome() + "e ele tem " + pedro.getIdade());
+		System.out.println("O nome do João é " + joao.getNome() + " e ele tem " + joao.getIdade());
+		System.out.println("O nome do Pedro é " + pedro.getNome() + " e ele tem " + pedro.getIdade());
 	}
 }
