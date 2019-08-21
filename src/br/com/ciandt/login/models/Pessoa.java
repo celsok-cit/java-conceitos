@@ -2,8 +2,8 @@ package br.com.ciandt.login.models;
 
 public class Pessoa {
 
-	private String nome;
-	private int idade;
+	public String nome;
+	public String idade;
 
 	public String getNome() {
 		return nome;
@@ -13,12 +13,12 @@ public class Pessoa {
 		this.nome = nome;
 	}
 
-	int getIdade() {
+	String getIdade() {
 		return idade;
 	}
 
-	protected void setIdade(int idade) {
-		this.idade = idade;
+	public void setIdade(String string) {
+		this.idade = string;
 	}
 	
 }
